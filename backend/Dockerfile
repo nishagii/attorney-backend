@@ -2,7 +2,7 @@
 # Choose a version compatible with your Spring Boot version (e.g., 17, 21)
 FROM openjdk:21-jdk-slim
 
-# Set the working directory inside the containerr
+# Set the working directory inside the container
 WORKDIR /app
 
 # Copy the Maven wrapper files (if you use ./mvnw)
